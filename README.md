@@ -18,6 +18,7 @@ Using `playwright-java-soft-assertions` is similar to other soft assertion imple
 
 1.  Create an instance of the `SoftAssertions` object
 2.  Use the soft assertions object to make calls to Playwright's assertions
+3.  Call the `assertAll()` method when you're done.
 
 ```java
 import io.github.uchagani.playwright.assertions.SoftAssertions;
@@ -32,6 +33,8 @@ public class FooTest {
         SoftAssertions softly = SoftAssertions.create();
         softly.assertThat(someButton).isEnabled();
         softly.assertThat(someLabel).hasText("foo");
+        
+        softly.assertAll();
     }
 }
 ```
