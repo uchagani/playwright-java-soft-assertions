@@ -6,7 +6,7 @@
 
     <groupId>io.github.uchagani</groupId>
     <artifactId>playwright-java-soft-assertions</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>playwright-java-soft-assertions</name>
     <description>playwright-java-soft-assertions gives you soft assertions to use with Playwright!</description>

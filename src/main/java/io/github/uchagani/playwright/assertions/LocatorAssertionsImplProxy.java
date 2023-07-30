@@ -7,7 +7,7 @@ import com.microsoft.playwright.impl.LocatorAssertionsImpl;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class LocatorAssertionsImplProxy extends SoftAssertionsBase implements LocatorAssertions {
+class LocatorAssertionsImplProxy extends SoftAssertionsBase implements LocatorAssertions {
     private final LocatorAssertionsImpl locatorAssertions;
 
     LocatorAssertionsImplProxy(Locator locator, List<Throwable> results) {
